@@ -20,12 +20,9 @@ The frontend of the application provides two main functionalities:
 ### Backend
 The backend consists of two primary endpoints:
 
-1. **POST /books**:
+1. **POST /books**: Receives data from the frontend and adds a new book to the SQLite database.
 
-Receives data from the frontend and adds a new book to the SQLite database.
-
-2. **GET /books/**:
-Returns books that contain the keyword in either the title or author fields.
+2. **GET /books/**: Returns books that contain the keyword in either the title or author fields.
 
 ## Project Files
 
