@@ -33,8 +33,16 @@ The backend consists of two primary endpoints:
 - `books.sqlite`: SQLite database file containing book records.
 
 ## Database
-The SQLite database books.sqlite contains 10 book entries with various authors and genres. Below are the existing entries:
+The SQLite database books.sqlite contains 5 book entries with various authors and genres. Below are the existing entries:
 
 | ID | Author | Book | Genre | Price |
 | :---: | :---: | :---: | :---: | :---: |
-| 301 | 283 | 290 | 286 | 289 | 
+| 2 | Author1 | Book1 | Science fiction | 1.99 | 
+| 3 | Author2 | Book2 | Satire | 2.99 | 
+| 4 | Author3 | Book3 | Drama | 3.99 | 
+| 5 | Author4 | Book4 | Action and Adventure | 4.99 | 
+| 6 | Author5 | Book5 | Romance | 5.99 | 
+
+## Prerequisites
+- Node.js and npm must be installed on your machine.
+- SQLite should be set up to interact with the database file.
