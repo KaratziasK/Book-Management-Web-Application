@@ -46,3 +46,20 @@ The SQLite database books.sqlite contains 5 book entries with various authors an
 ## Prerequisites
 - Node.js and npm must be installed on your machine.
 - SQLite should be set up to interact with the database file.
+
+## Installation
+1. Clone the repository to your local machine.
+
+2. Navigate to the project directory.
+
+3. Install the necessary dependencies by running:
+
+```sh
+npm install
+```
+
+4. Start the server with the command:
+```sh
+node server.js
+```
+5. Open `index.html` in your web browser to interact with the application.
